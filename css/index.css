@@ -1,0 +1,145 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+}
+a {
+  text-decoration: none;
+  overflow: hidden;
+}
+a:hover {
+  cursor: pointer;
+}
+.colored {
+  background-color: #eee9da;
+}
+.common-padding {
+  padding: 7% 3%;
+}
+.navbar {
+  padding: 0 3%;
+}
+.nav-img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #6096b4;
+}
+/* home */
+.home-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.home-paragraph {
+  line-height: 2.2;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.btn {
+  margin: 0 30px 30px 0;
+}
+.home-img {
+  width: 72%;
+}
+/* services */
+.services-img {
+  width: 20%;
+  height: 31%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.services-bigheading {
+  font-size: 2.7rem;
+}
+.services-heading {
+  color: #b99b6b;
+}
+
+.services-p {
+  line-height: 2;
+}
+/* portfolio */
+.projects-bigheading {
+  font-size: 2.7rem;
+}
+.card {
+  margin: 50px 0;
+}
+.card-title {
+  color: #b99b6b;
+}
+
+.card-text {
+  color: #000;
+}
+.card-img-top {
+  transition: 0.5s all ease-in-out;
+}
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+/* testimonials */
+.testmonial-padding {
+  padding: 5% 12%;
+}
+.testimonials-bigheading {
+  font-size: 2.7rem;
+  margin-top: 30px;
+}
+.testimonials-heading {
+  margin-top: 20px;
+  color: #b99b6b;
+  line-height: 1.5;
+}
+.testimonial-img {
+  background-image: url("../images/back.jpg");
+  border-radius: 50%;
+  width: 15%;
+  height: 11115%;
+}
+/* contacts */
+.footer-padding {
+  padding: 3% 3%;
+}
+.footer-icon {
+  color: #000;
+  font-size: 2rem;
+  margin-right: 45px;
+}
+.footer-icon:hover {
+  color: #b99b6b;
+}
+.footer-p {
+  margin-top: 35px;
+}
+/* media break */
+@media screen and (max-width: 987px) {
+  .home-img {
+    width: 60%;
+  }
+  .card-img-top {
+    height: 95%;
+  }
+}
+@media screen and (max-width: 315px) {
+  .services-img {
+    width: 27%;
+    height: 19%;
+  }
+}
